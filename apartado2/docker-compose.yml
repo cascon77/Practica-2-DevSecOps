@@ -1,0 +1,9 @@
+
+services:
+  mi-web-php:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "80" 
+    restart: always
